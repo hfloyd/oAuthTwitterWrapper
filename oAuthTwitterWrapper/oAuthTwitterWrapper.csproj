@@ -57,12 +57,14 @@
     <Compile Include="JsonTypes\Entities.cs" />
     <Compile Include="JsonTypes\Hashtag.cs" />
     <Compile Include="JsonTypes\Media.cs" />
+    <Compile Include="JsonTypes\Place.cs" />
     <Compile Include="JsonTypes\Search.cs" />
     <Compile Include="JsonTypes\TimeLine.cs" />
     <Compile Include="JsonTypes\Url.cs" />
     <Compile Include="JsonTypes\User.cs" />
     <Compile Include="JsonTypes\UserEntities.cs" />
     <Compile Include="JsonTypes\UserMention.cs" />
+    <Compile Include="Models\Tweet.cs" />
     <Compile Include="OAuthTwitterWrapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SearchSettings.cs" />
@@ -74,6 +76,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>XCOPY /y "$(ProjectDir)$(OutDir)$(TargetName).*" "C:\Users\Heather\NAS Folders\Active Projects\Webs\Scandia\uWestFest\sourcecode-Code\src\uWestFest.Web\Dependencies\"
+XCOPY /y "$(ProjectDir)$(OutDir)$(TargetName).*" "C:\Users\Heather\NAS Folders\Active Projects\Webs\Scandia\uWestFest\sourcecode-UaaS\bin\"</PostBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
