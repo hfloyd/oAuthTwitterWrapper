@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcApplication", "MvcApplic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oAuthTwitterWrapper", "oAuthTwitterWrapper\oAuthTwitterWrapper.csproj", "{8BB6CE98-A55B-495A-B8D2-37ECE69E2956}"
 EndProject
+Project("{FF286327-C783-4F7A-AB73-9BCBAD0D4460}") = "HFloyd.oAuthTwitterWrapper", "HFloyd.oAuthTwitterTimeline\HFloyd.oAuthTwitterWrapper.nuproj", "{0D7E5166-E70B-465D-A125-3AC2F64B81DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,16 @@ Global
 		{8BB6CE98-A55B-495A-B8D2-37ECE69E2956}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{8BB6CE98-A55B-495A-B8D2-37ECE69E2956}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{8BB6CE98-A55B-495A-B8D2-37ECE69E2956}.Release|x86.ActiveCfg = Release|Any CPU
+		{0D7E5166-E70B-465D-A125-3AC2F64B81DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D7E5166-E70B-465D-A125-3AC2F64B81DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D7E5166-E70B-465D-A125-3AC2F64B81DD}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0D7E5166-E70B-465D-A125-3AC2F64B81DD}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{0D7E5166-E70B-465D-A125-3AC2F64B81DD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0D7E5166-E70B-465D-A125-3AC2F64B81DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D7E5166-E70B-465D-A125-3AC2F64B81DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D7E5166-E70B-465D-A125-3AC2F64B81DD}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0D7E5166-E70B-465D-A125-3AC2F64B81DD}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{0D7E5166-E70B-465D-A125-3AC2F64B81DD}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
